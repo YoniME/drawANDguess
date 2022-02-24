@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  font-family: Comfortaa, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #b9b9b9;
+  min-height: 81vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  font-family: Comfortaa, sans-serif;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.players {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  margin: auto;
+  font-family: Comfortaa, sans-serif;
+  outline-style: solid;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.wrapper.item {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.wrapper.item.selected {
+  border-bottom: 2px solid #333;
+}
