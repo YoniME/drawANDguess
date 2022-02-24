@@ -74,7 +74,7 @@ export class WordChoosing extends React.Component {
   renWaiting(){
     return(
       <div className="container">
-        <h1>{"Waiting for other player login"}</h1>
+        <h1>{"Please wait"}</h1>
         <TailSpin 
         color="#ffc600"
         size={100}
